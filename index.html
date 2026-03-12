@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Forum | The Electric Vehicle Community</title>
+    <meta name="description" content="The #1 community for electric vehicle news, reviews, charging guides, and EV discussions.">
+    <style>
+        :root {
+            --primary: #0a192f;
+            --accent: #38bdf8;
+            --accent-hover: #0284c7;
+            --bg: #f0fdfa;
+            --card-bg: #ffffff;
+            --text: #334155;
+            --text-light: #64748b;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; }
+        header { background-color: var(--primary); color: white; padding: 1.5rem 0; border-bottom: 4px solid var(--accent); }
+        .header-content { max-width: 1200px; margin: 0 auto; padding: 0 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 2rem; font-weight: 900; text-decoration: none; color: white; letter-spacing: -1px; }
+        .logo span { color: var(--accent); }
+        .hero { background: linear-gradient(135deg, #0a192f 0%, #0f172a 100%); color: white; padding: 6rem 2rem; text-align: center; }
+        .hero h1 { font-size: 4rem; font-weight: 900; margin-bottom: 1.5rem; line-height: 1.1; letter-spacing: -1px; }
+        .hero p { font-size: 1.25rem; color: #bae6fd; max-width: 700px; margin: 0 auto 2.5rem auto; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem; }
+        .card { background: var(--card-bg); border-radius: 12px; padding: 2rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); border: 1px solid #e0f2fe; transition: transform 0.2s; display: flex; flex-direction: column; }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { font-size: 1.3rem; color: var(--primary); margin-bottom: 1rem; line-height: 1.3; }
+        .card img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem; object-fit: cover; aspect-ratio: 4/3; }
+        .badge { display: inline-block; background: #e0f2fe; color: #0284c7; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; font-weight: bold; margin-bottom: 1rem; text-transform: uppercase; align-self: flex-start; }
+        .btn-green { display: block; text-align: center; background-color: #10b981; color: white; padding: 12px 20px; font-weight: bold; text-decoration: none; border-radius: 8px; margin-top: auto; transition: background 0.2s; }
+        .btn-green:hover { background-color: #059669; }
+        .btn-blue { display: block; text-align: center; background-color: #0ea5e9; color: white; padding: 12px 20px; font-weight: bold; text-decoration: none; border-radius: 8px; margin-top: 10px; transition: background 0.2s; }
+        .btn-blue:hover { background-color: #0284c7; }
+        footer { background-color: var(--primary); color: #94a3b8; text-align: center; padding: 3rem 2rem; margin-top: 4rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="/" class="logo">EV<span>Forum</span>.net</a>
+        </div>
+    </header>
+    <div class="hero">
+        <h1>The Future is Electric.</h1>
+        <p>Your premium hub for EV news, deep-dive reviews, charging infrastructure guides, and electric bike insights.</p>
+    </div>
+    <div class="container">
+        <div style="margin-bottom: 3rem; text-align: center;">
+            <h2 style="font-size: 2.5rem; color: var(--primary);">Latest Community Reviews & Deals</h2>
+        </div>
+        <div class="grid">
+
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S69864d4ef0e348ffb1b421c764ecde06J.webp?v=1772655377" alt="Adult Electric Bike 750W Motor 374.4Wh Battery 20 Fat Tires 55 Mile Range">
+                <h3>Adult Electric Bike 750W Motor 374.4Wh Battery 20 Fat Tires 55 Mile Range</h3>
+                <a href="https://theelectricbikesuperstore.com/products/adult-electric-bike-750w-motor-374-4wh-battery-20-fat-tires-55-mile-range" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/adult-electric-bike-750w-motor-374-4wh-battery-20-fat-tires-55-mile-range" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sf5c4694f577c41a6a7d8e9ef9e93cbb2l.webp?v=1772655325" alt="Ebike K6F 1000W 48V 25AH 20-inch mountain city adult electric bicycle">
+                <h3>Ebike K6F 1000W 48V 25AH 20-inch mountain city adult electric bicycle</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-k6f-1000w-48v-25ah-20-inch-mountain-city-adult-electric-bicycle" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-k6f-1000w-48v-25ah-20-inch-mountain-city-adult-electric-bicycle" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/89038d2b-2ef1-42d4-bf34-9077a20669df.jpg?v=1772655210" alt="Electric Scooter Is Small Foldable And Lightweight">
+                <h3>Electric Scooter Is Small Foldable And Lightweight</h3>
+                <a href="https://theelectricbikesuperstore.com/products/electric-scooter-is-small-foldable-and-lightweight" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/electric-scooter-is-small-foldable-and-lightweight" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/77193a4e-3d42-4df2-9ac2-1a3aa1d19734_6a5db5a8-d64f-47e2-8304-944c9095f7ac.jpg?v=1772654563" alt="Electric Scooter X9 Endurance    High-power Folding Mobility 10 Inch Electric Vehicle">
+                <h3>Electric Scooter X9 Endurance    High-power Folding Mobility 10 Inch Electric Vehicle</h3>
+                <a href="https://theelectricbikesuperstore.com/products/electric-scooter-x9-endurance-high-power-folding-mobility-10-inch-electric-vehicle-1" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/electric-scooter-x9-endurance-high-power-folding-mobility-10-inch-electric-vehicle-1" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/IeikSp4EmnOaU5vk.webp?v=1772654548" alt="Electric Mountain Bike for Adults,">
+                <h3>Electric Mountain Bike for Adults,</h3>
+                <a href="https://theelectricbikesuperstore.com/products/electric-mountain-bike-for-adults" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/electric-mountain-bike-for-adults" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/5073_source_1710825650.jpg?v=1772654462" alt="Rovoron (by Dualtron) Kullter electric scooter with the 60 V 31.5 Ah Green">
+                <h3>Rovoron (by Dualtron) Kullter electric scooter with the 60 V 31.5 Ah Green</h3>
+                <a href="https://theelectricbikesuperstore.com/products/rovoron-by-dualtron-kullter-electric-scooter-with-the-60-v-31-5-ah-green" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/rovoron-by-dualtron-kullter-electric-scooter-with-the-60-v-31-5-ah-green" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/C45_Product.jpg?v=1772654319" alt="Razor C45 Electric Scooter">
+                <h3>Razor C45 Electric Scooter</h3>
+                <a href="https://theelectricbikesuperstore.com/products/razor-c45-electric-scooter" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/razor-c45-electric-scooter" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/zvg-premium-4-wheel-electric-motorized-adults-travel-mobility-scooter-for-adults-800w-sak94712-front-view.jpg?v=1772654296" alt="Zvg Premium 4-Wheel Electric Motorized Adults Travel Mobility Scooter For Adults, 800W (SAK94712)">
+                <h3>Zvg Premium 4-Wheel Electric Motorized Adults Travel Mobility Scooter For Adults, 800W (SAK94712)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/zvg-premium-4-wheel-electric-motorized-adults-travel-mobility-scooter-for-adults-800w-sak94712" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/zvg-premium-4-wheel-electric-motorized-adults-travel-mobility-scooter-for-adults-800w-sak94712" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/11_1_6f7aa12a-b4e2-4dad-b848-74a00b18216f.jpg?v=1772653037" alt="META24 1.0">
+                <h3>META24 1.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/meta24-1-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/meta24-1-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/0..jpg?v=1772653038" alt="META20 1.0">
+                <h3>META20 1.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/meta20-1-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/meta20-1-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/01_21a41e9d-d0b6-4e75-83f2-dfab1ac1c532.jpg?v=1772653037" alt="SPECTER-S 3.0 / Hunter X9">
+                <h3>SPECTER-S 3.0 / Hunter X9</h3>
+                <a href="https://theelectricbikesuperstore.com/products/specter-s-3-0-hunter-x9" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/specter-s-3-0-hunter-x9" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/DEFENDER-S-_1_1.jpg?v=1772653037" alt="DEFENDER">
+                <h3>DEFENDER</h3>
+                <a href="https://theelectricbikesuperstore.com/products/defender" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/defender" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/16-9_01_ef88c4e4-35f5-4145-bada-d6e0c7c948bb.jpg?v=1772653037" alt="EKIDS20 1.0">
+                <h3>EKIDS20 1.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ekids20-1-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ekids20-1-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/16-9-04_1.jpg?v=1772653037" alt="META275 1.0">
+                <h3>META275 1.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/meta275-1-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/meta275-1-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/16-9_02.jpg?v=1772653037" alt="NEW-TRIKE 2.0">
+                <h3>NEW-TRIKE 2.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/new-trike-2-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/new-trike-2-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/13_5_7e0cb588-5060-4e30-8695-c7a61ae839c9.jpg?v=1772653037" alt="FAT-HS / Hunter X8">
+                <h3>FAT-HS / Hunter X8</h3>
+                <a href="https://theelectricbikesuperstore.com/products/fat-hs-hunter-x8" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/fat-hs-hunter-x8" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/169.jpg?v=1772653036" alt="E-FAT-MN">
+                <h3>E-FAT-MN</h3>
+                <a href="https://theelectricbikesuperstore.com/products/e-fat-mn" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/e-fat-mn" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/16-9_01_73fd8376-1cc1-4534-ac17-245b3162cd4c.jpg?v=1772653038" alt="R1">
+                <h3>R1</h3>
+                <a href="https://theelectricbikesuperstore.com/products/r1" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/r1" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/G30-CARGO_0dac1d20-5e9b-4cfe-bc2c-576a00b6e216.jpg?v=1772653037" alt="G30-CARGO 2.0">
+                <h3>G30-CARGO 2.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/g30-cargo-2-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/g30-cargo-2-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Defender-S-Gray_e4356858-58e0-4aa2-bb98-f248faafa940.jpg?v=1772653037" alt="DEFENDER-S">
+                <h3>DEFENDER-S</h3>
+                <a href="https://theelectricbikesuperstore.com/products/defender-s" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/defender-s" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/16-9-03_1.jpg?v=1772653037" alt="FLASH 2.0">
+                <h3>FLASH 2.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/flash-2-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/flash-2-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/02_157bdbf7-1a8b-47f3-8685-a41a07a52741.jpg?v=1772653036" alt="SPECTER-ST 2.0">
+                <h3>SPECTER-ST 2.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/specter-st-2-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/specter-st-2-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/05_7b6633c0-6b7b-4084-820e-270d215eb74b.jpg?v=1772653037" alt="E-FAT-STEP">
+                <h3>E-FAT-STEP</h3>
+                <a href="https://theelectricbikesuperstore.com/products/e-fat-step" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/e-fat-step" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Red4.jpg?v=1772653037" alt="ONE-TRIKE 2.0">
+                <h3>ONE-TRIKE 2.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/one-trike-2-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/one-trike-2-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/jumbo.jpg?v=1772653036" alt="JUMBO">
+                <h3>JUMBO</h3>
+                <a href="https://theelectricbikesuperstore.com/products/jumbo" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/jumbo" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/17_16-9.jpg?v=1772653037" alt="FAT-HD 1.0 Pro / Hunter X7">
+                <h3>FAT-HD 1.0 Pro / Hunter X7</h3>
+                <a href="https://theelectricbikesuperstore.com/products/fat-hd-1-0-pro-hunter-x7" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/fat-hd-1-0-pro-hunter-x7" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/01_16-9_0d39eb47-2d2a-4bfc-adad-269065ec6b92.jpg?v=1772653037" alt="FAT-AWD 3.0">
+                <h3>FAT-AWD 3.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/fat-awd-3-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/fat-awd-3-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/25_1.jpg?v=1772653036" alt="EKIDS16 1.0">
+                <h3>EKIDS16 1.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ekids16-1-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ekids16-1-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/0016-9.jpg?v=1772653037" alt="EKIDS24 1.0">
+                <h3>EKIDS24 1.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ekids24-1-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ekids24-1-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/MAX-CARGO.jpg?v=1772653037" alt="MAX-CARGO 2.0">
+                <h3>MAX-CARGO 2.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/max-cargo-2-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/max-cargo-2-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/8_c7b59161-3c4f-4bc0-a2eb-d4eec978fdc1.jpg?v=1772653030" alt="FLASH LITE  ST 1.0">
+                <h3>FLASH LITE  ST 1.0</h3>
+                <a href="https://theelectricbikesuperstore.com/products/flash-lite-st-1-0" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/flash-lite-st-1-0" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/0016-9_d6a55979-7b72-4d2b-a70c-e5d296ab9e7e.jpg?v=1772653030" alt="FAT-HD 2.0 / Hunter X7">
+                <h3>FAT-HD 2.0 / Hunter X7</h3>
+                <a href="https://theelectricbikesuperstore.com/products/fat-hd-2-0-hunter-x7" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/fat-hd-2-0-hunter-x7" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/heavy-duty-all-terrain-electric-powered-mobility-scooter-for-seniors-adults-800w-sak96314-front-view.jpg?v=1772499320" alt="Zvg Heavy-Duty All-Terrain Electric Powered Mobility Scooter For Seniors & Adults, 800W (SAK96314)">
+                <h3>Zvg Heavy-Duty All-Terrain Electric Powered Mobility Scooter For Seniors & Adults, 800W (SAK96314)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/zvg-heavy-duty-all-terrain-electric-powered-mobility-scooter-for-seniors-adults-800w-sak96314" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/zvg-heavy-duty-all-terrain-electric-powered-mobility-scooter-for-seniors-adults-800w-sak96314" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sad82c13c5b014c9aba369082085e5334n.webp?v=1772500857" alt="VICAN Foldable 48V Electric Scooter - 45 km/h Speed, 16Ah Battery">
+                <h3>VICAN Foldable 48V Electric Scooter - 45 km/h Speed, 16Ah Battery</h3>
+                <a href="https://theelectricbikesuperstore.com/products/vican-foldable-48v-electric-scooter-45-km-h-speed-16ah-battery" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/vican-foldable-48v-electric-scooter-45-km-h-speed-16ah-battery" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/zvg-4-wheel-60v-20ah-electric-golf-senior-travel-mobility-scooter-for-adults-440lbs-sak91582-front-view.jpg?v=1772499608" alt="Zvg 4-Wheel 60V/20AH Electric Golf Senior Travel Mobility Scooter For Adults, 440LBS (SAK91582)">
+                <h3>Zvg 4-Wheel 60V/20AH Electric Golf Senior Travel Mobility Scooter For Adults, 440LBS (SAK91582)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/zvg-4-wheel-60v-20ah-electric-golf-senior-travel-mobility-scooter-for-adults-440lbs-sak91582" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/zvg-4-wheel-60v-20ah-electric-golf-senior-travel-mobility-scooter-for-adults-440lbs-sak91582" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sddcd8c4feb67422496abe737500721d5a.webp?v=1772500885" alt="VICAN 800W 48V Off-Road Electric Scooter - 10 Inch, Foldable Design">
+                <h3>VICAN 800W 48V Off-Road Electric Scooter - 10 Inch, Foldable Design</h3>
+                <a href="https://theelectricbikesuperstore.com/products/vican-800w-48v-off-road-electric-scooter-10-inch-foldable-design" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/vican-800w-48v-off-road-electric-scooter-10-inch-foldable-design" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sdc902c7c2b8d42f58772fd99c640879bT_bffc343a-e32d-4f9d-a2af-adf963b4168f.webp?v=1772500577" alt="Teverun Fighter Supreme 7260R - 10000W Electric Scooter with GPS">
+                <h3>Teverun Fighter Supreme 7260R - 10000W Electric Scooter with GPS</h3>
+                <a href="https://theelectricbikesuperstore.com/products/teverun-fighter-supreme-7260r-10000w-electric-scooter-with-gps" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/teverun-fighter-supreme-7260r-10000w-electric-scooter-with-gps" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sdc0c8471b9814003a0d4fe31233a719by_34ccf1f2-5dea-4c5a-88d1-80a4f9ad8196.webp?v=1772498711" alt="U5 500W 20 Folding eBike - Compact, Lightweight, and Powerful">
+                <h3>U5 500W 20 Folding eBike - Compact, Lightweight, and Powerful</h3>
+                <a href="https://theelectricbikesuperstore.com/products/u5-500w-20-folding-ebike-compact-lightweight-and-powerful" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/u5-500w-20-folding-ebike-compact-lightweight-and-powerful" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S10e8a500c6be4779b592e685e4f18ab6t.webp?v=1772500648" alt="RT6 1000W Electric Scooter - 48V, 40-50km Range, Foldable">
+                <h3>RT6 1000W Electric Scooter - 48V, 40-50km Range, Foldable</h3>
+                <a href="https://theelectricbikesuperstore.com/products/rt6-1000w-electric-scooter-48v-40-50km-range-foldable" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/rt6-1000w-electric-scooter-48v-40-50km-range-foldable" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S18cb3312a5ef4aa5807497821a09ec79Y.webp?v=1772500708" alt="Obarter D5 5000W Electric Scooter - High Power, 60-100km Range">
+                <h3>Obarter D5 5000W Electric Scooter - High Power, 60-100km Range</h3>
+                <a href="https://theelectricbikesuperstore.com/products/obarter-d5-5000w-electric-scooter-high-power-60-100km-range" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/obarter-d5-5000w-electric-scooter-high-power-60-100km-range" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/mototec-raven-60v30ah-2500w-electric-moped-motorcycle-scooter-for-adults-black-left-side-view-95148263-585322.jpg?v=1772498601" alt="MotoTec Raven 60V/30AH 2500W Electric Moped Motorcycle Scooter For Adults (SAK48263)">
+                <h3>MotoTec Raven 60V/30AH 2500W Electric Moped Motorcycle Scooter For Adults (SAK48263)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/mototec-raven-60v-30ah-2500w-electric-moped-motorcycle-scooter-for-adults-sak48263" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/mototec-raven-60v-30ah-2500w-electric-moped-motorcycle-scooter-for-adults-sak48263" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sa9ebd2e972b64eda950c3be81ad13cd0b.webp?v=1772500778" alt="M6Max Dual Motor 5600W Electric Scooter - Fast & Foldable 11 Inch">
+                <h3>M6Max Dual Motor 5600W Electric Scooter - Fast & Foldable 11 Inch</h3>
+                <a href="https://theelectricbikesuperstore.com/products/m6max-dual-motor-5600w-electric-scooter-fast-foldable-11-inch" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/m6max-dual-motor-5600w-electric-scooter-fast-foldable-11-inch" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/metro-mobility-s800-24v800w-electric-travel-mobility-scooter-400lbs-92507864-849694.jpg?v=1772499557" alt="Metro Mobility S800 24V/800W Electric Travel Mobility Scooter, 400LBS (SAK92571)">
+                <h3>Metro Mobility S800 24V/800W Electric Travel Mobility Scooter, 400LBS (SAK92571)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/metro-mobility-s800-24v-800w-electric-travel-mobility-scooter-400lbs-sak92571" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/metro-mobility-s800-24v-800w-electric-travel-mobility-scooter-400lbs-sak92571" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S9f268f11b9ee424dbad45843202a2e25z_17298191-6e17-4875-b3b6-3fcfd3a90149.webp?v=1772500676" alt="HX X9 PLUS Electric Scooter - Foldable, 60-80km Range, Unisex">
+                <h3>HX X9 PLUS Electric Scooter - Foldable, 60-80km Range, Unisex</h3>
+                <a href="https://theelectricbikesuperstore.com/products/hx-x9-plus-electric-scooter-foldable-60-80km-range-unisex" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/hx-x9-plus-electric-scooter-foldable-60-80km-range-unisex" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S9f268f11b9ee424dbad45843202a2e25z.webp?v=1772500960" alt="HX X9 PLUS Electric Scooter - Foldable, 60-80km Range, 10-inch Tires">
+                <h3>HX X9 PLUS Electric Scooter - Foldable, 60-80km Range, 10-inch Tires</h3>
+                <a href="https://theelectricbikesuperstore.com/products/hx-x9-plus-electric-scooter-foldable-60-80km-range-10-inch-tires" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/hx-x9-plus-electric-scooter-foldable-60-80km-range-10-inch-tires" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Af48ce28e16d24b42bc5564d2038cbe633.webp?v=1772500618" alt="HEZZO-F8 Electric Scooter - 8000W Power, 100-120km Range">
+                <h3>HEZZO-F8 Electric Scooter - 8000W Power, 100-120km Range</h3>
+                <a href="https://theelectricbikesuperstore.com/products/hezzo-f8-electric-scooter-8000w-power-100-120km-range" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/hezzo-f8-electric-scooter-8000w-power-100-120km-range" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/77193a4e-3d42-4df2-9ac2-1a3aa1d19734.jpg?v=1772500988" alt="Electric Scooter X9 Endurance    High-power Folding Mobility 10 Inch Electric Vehicle">
+                <h3>Electric Scooter X9 Endurance    High-power Folding Mobility 10 Inch Electric Vehicle</h3>
+                <a href="https://theelectricbikesuperstore.com/products/electric-scooter-x9-endurance-high-power-folding-mobility-10-inch-electric-vehicle" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/electric-scooter-x9-endurance-high-power-folding-mobility-10-inch-electric-vehicle" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S10e8a500c6be4779b592e685e4f18ab6t_7d0fe817-8022-4ed9-8160-4c6cacd74803.webp?v=1772500691" alt="eBike Boys RT6 1000W Electric Scooter - 48V, 40-50km Range">
+                <h3>eBike Boys RT6 1000W Electric Scooter - 48V, 40-50km Range</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-rt6-1000w-electric-scooter-48v-40-50km-range" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-rt6-1000w-electric-scooter-48v-40-50km-range" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sad82c13c5b014c9aba369082085e5334n_37d9211e-e1a1-464f-9059-18142ae6d83e.webp?v=1772500919" alt="eBike Boys 48V Foldable Electric Scooter - 800W Max Speed 45km/h">
+                <h3>eBike Boys 48V Foldable Electric Scooter - 800W Max Speed 45km/h</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-48v-foldable-electric-scooter-800w-max-speed-45km-h" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-48v-foldable-electric-scooter-800w-max-speed-45km-h" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S39b3003dbc5f4eed9495e500abf0c3f4L_182c5fc3-fabd-4039-b400-829a55bd2ebe.webp?v=1772498767" alt="eBike Boys 52V 750W Adult eBike - 17AH Battery, Top Speed 32km/h">
+                <h3>eBike Boys 52V 750W Adult eBike - 17AH Battery, Top Speed 32km/h</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-52v-750w-adult-ebike-17ah-battery-top-speed-32km-h" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-52v-750w-adult-ebike-17ah-battery-top-speed-32km-h" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sdc902c7c2b8d42f58772fd99c640879bT.webp?v=1772500791" alt="eBike Boys 10000W Electric Scooter - GPS PKE Function, Foldable Design">
+                <h3>eBike Boys 10000W Electric Scooter - GPS PKE Function, Foldable Design</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-10000w-electric-scooter-gps-pke-function-foldable-design" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-10000w-electric-scooter-gps-pke-function-foldable-design" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/378ed272a00e7bb0549276366b56535ef1bca75a.jpg?v=1772499714" alt="Benno eJoy 10D Class 3 Etility Ebike - Bosch Performance Line Sport 400Wh Step-Through Niagara Blue One Size">
+                <h3>Benno eJoy 10D Class 3 Etility Ebike - Bosch Performance Line Sport 400Wh Step-Through Niagara Blue One Size</h3>
+                <a href="https://theelectricbikesuperstore.com/products/benno-ejoy-10d-class-3-etility-ebike-bosch-performance-line-sport-400wh-step-through-niagara-blue-one-size" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/benno-ejoy-10d-class-3-etility-ebike-bosch-performance-line-sport-400wh-step-through-niagara-blue-one-size" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/bespoke-regal-premium-electric-mobility-scooter-with-electronic-speed-control-400lbs-red-sak28351-lifestyle-in-park-left-right-view.jpg?v=1772499462" alt="Bespoke Regal Premium Electric Mobility Scooter With Electronic Speed Control, 400LBS (SAK28351)">
+                <h3>Bespoke Regal Premium Electric Mobility Scooter With Electronic Speed Control, 400LBS (SAK28351)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/bespoke-regal-premium-electric-mobility-scooter-with-electronic-speed-control-400lbs-sak28351" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/bespoke-regal-premium-electric-mobility-scooter-with-electronic-speed-control-400lbs-sak28351" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/378ed272a00e7bb0549276366b56535ef1bca75a_2a4ae7be-20b7-40b4-bab8-2e35fcce6786.jpg?v=1772499800" alt="Benno eJoy 10D Class 1 Etility Ebike - Bosch Active Line Plus 400Wh Step-Through Niagara Blue One Size">
+                <h3>Benno eJoy 10D Class 1 Etility Ebike - Bosch Active Line Plus 400Wh Step-Through Niagara Blue One Size</h3>
+                <a href="https://theelectricbikesuperstore.com/products/benno-ejoy-10d-class-1-etility-ebike-bosch-active-line-plus-400wh-step-through-niagara-blue-one-size" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/benno-ejoy-10d-class-1-etility-ebike-bosch-active-line-plus-400wh-step-through-niagara-blue-one-size" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Secafd1bfdfee48a0bab7e7b2d89565e8P.webp?v=1772500934" alt="6000W Adult Off-Road Electric Scooter: 50 MPH, 60 Mile Range">
+                <h3>6000W Adult Off-Road Electric Scooter: 50 MPH, 60 Mile Range</h3>
+                <a href="https://theelectricbikesuperstore.com/products/6000w-adult-off-road-electric-scooter-50-mph-60-mile-range" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/6000w-adult-off-road-electric-scooter-50-mph-60-mile-range" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/download_75c9434f-e69e-4636-ab52-e47e8036ac1d.jpg?v=1772504206" alt="VR46 Kid Moto-X Electric Bicycle, 16 Inch Wheels (No box New Demo Bike)">
+                <h3>VR46 Kid Moto-X Electric Bicycle, 16 Inch Wheels (No box New Demo Bike)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/vr46-kid-moto-x-electric-bicycle-16-inch-wheels-no-box-new-demo-bike" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/vr46-kid-moto-x-electric-bicycle-16-inch-wheels-no-box-new-demo-bike" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/ekx-x21-adults-2000w-48v-35ah-electric-mountain-off-road-dirt-bike-right-view-sak92745.jpg?v=1772504186" alt="EKX X21 2000W 48V/35AH Premium Electric Off-Road Mountain Dirt Bike (SAK92745)">
+                <h3>EKX X21 2000W 48V/35AH Premium Electric Off-Road Mountain Dirt Bike (SAK92745)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ekx-x21-2000w-48v-35ah-premium-electric-off-road-mountain-dirt-bike-sak92745" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ekx-x21-2000w-48v-35ah-premium-electric-off-road-mountain-dirt-bike-sak92745" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/mototec-1000w-48v12ah-electric-powered-mini-bike-black-lifestyle-96372584-323587.jpg?v=1772504166" alt="MotoTec 1000W 48V/12AH Electric Powered Mini Bike, Black (SAK17859)">
+                <h3>MotoTec 1000W 48V/12AH Electric Powered Mini Bike, Black (SAK17859)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/mototec-1000w-48v-12ah-electric-powered-mini-bike-black-sak17859" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/mototec-1000w-48v-12ah-electric-powered-mini-bike-black-sak17859" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/mototec-venom-high-performance-72v-12000w-electric-dirt-bike-white-sak70326-lifestyle.jpg?v=1772504091" alt="MotoTec Venom High-Performance 72V/12000W Electric Dirt Bike, White (SAK70326)">
+                <h3>MotoTec Venom High-Performance 72V/12000W Electric Dirt Bike, White (SAK70326)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/mototec-venom-high-performance-72v-12000w-electric-dirt-bike-white-sak70326" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/mototec-venom-high-performance-72v-12000w-electric-dirt-bike-white-sak70326" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/03_AWD_S_Angle_1206x_851f0d4e-a4a4-42ea-91b7-e9568fa1d635.jpg?v=1772504077" alt="Pedal Electric All Wheel Drive [S] E-Bike">
+                <h3>Pedal Electric All Wheel Drive [S] E-Bike</h3>
+                <a href="https://theelectricbikesuperstore.com/products/pedal-electric-all-wheel-drive-s-e-bike" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/pedal-electric-all-wheel-drive-s-e-bike" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/x2-mainNew.jpg?v=1772504058" alt="Freego X2 Off Road Dirt Electric Mountain Bike">
+                <h3>Freego X2 Off Road Dirt Electric Mountain Bike</h3>
+                <a href="https://theelectricbikesuperstore.com/products/freego-x2-off-road-dirt-electric-mountain-bike" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/freego-x2-off-road-dirt-electric-mountain-bike" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/1_442_78.jpg?v=1772504034" alt="12V Kids Ride On Motorcycle Electric Motor Bike-White">
+                <h3>12V Kids Ride On Motorcycle Electric Motor Bike-White</h3>
+                <a href="https://theelectricbikesuperstore.com/products/12v-kids-ride-on-motorcycle-electric-motor-bike-white" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/12v-kids-ride-on-motorcycle-electric-motor-bike-white" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/12V_Kids_Ride_On_Motorcycle_Electric_Motor_Bike_Black-3.jpg?v=1772504019" alt="12V Kids Ride On Motorcycle Electric Motor Bike-Black">
+                <h3>12V Kids Ride On Motorcycle Electric Motor Bike-Black</h3>
+                <a href="https://theelectricbikesuperstore.com/products/12v-kids-ride-on-motorcycle-electric-motor-bike-black" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/12v-kids-ride-on-motorcycle-electric-motor-bike-black" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S4ce2d562aff047098a81079d676d356bT.webp?v=1772504003" alt="20MPH Electric Mountain Bike with Removable Battery & 35-Speeds">
+                <h3>20MPH Electric Mountain Bike with Removable Battery & 35-Speeds</h3>
+                <a href="https://theelectricbikesuperstore.com/products/20mph-electric-mountain-bike-with-removable-battery-35-speeds" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/20mph-electric-mountain-bike-with-removable-battery-35-speeds" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/2025-surron-ultra-bee-left-side-profile-carbon-black.webp?v=1772503981" alt="2025 Surron Ultra Bee Electric Dirt Bike">
+                <h3>2025 Surron Ultra Bee Electric Dirt Bike</h3>
+                <a href="https://theelectricbikesuperstore.com/products/2025-surron-ultra-bee-electric-dirt-bike-1" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/2025-surron-ultra-bee-electric-dirt-bike-1" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/rawrr_mantis_x_black_side_view.png?v=1772503970" alt="Rawrr Mantis X 72V Electric Dirt Bike">
+                <h3>Rawrr Mantis X 72V Electric Dirt Bike</h3>
+                <a href="https://theelectricbikesuperstore.com/products/rawrr-mantis-x-72v-electric-dirt-bike" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/rawrr-mantis-x-72v-electric-dirt-bike" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/rawrr-mantis-product-image-blk-01_1500x1500_1d34b489-a139-44b3-bdf5-b0ae44a6f8f4.jpg?v=1772503953" alt="Rawrr MANTIS 72V Electric Dirt Bike">
+                <h3>Rawrr MANTIS 72V Electric Dirt Bike</h3>
+                <a href="https://theelectricbikesuperstore.com/products/rawrr-mantis-72v-electric-dirt-bike" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/rawrr-mantis-72v-electric-dirt-bike" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/2025_surron_ultra_bee_left_profile_carbon_black_800x800_107cd853-6995-4053-8952-f866ee66d19b.webp?v=1772503943" alt="2025 Surron Ultra Bee Electric Dirt Bike">
+                <h3>2025 Surron Ultra Bee Electric Dirt Bike</h3>
+                <a href="https://theelectricbikesuperstore.com/products/2025-surron-ultra-bee-electric-dirt-bike" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/2025-surron-ultra-bee-electric-dirt-bike" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Himiway_d7pro5-2.webp?v=1772503924" alt="Himiway D7 Pro / Softail Electric Mountain Bike">
+                <h3>Himiway D7 Pro / Softail Electric Mountain Bike</h3>
+                <a href="https://theelectricbikesuperstore.com/products/himiway-d7-pro-softail-electric-mountain-bike" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/himiway-d7-pro-softail-electric-mountain-bike" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sd9e49344cd93481fa8fc25b15b185d556.webp?v=1772503867" alt="DEEPOWER S7Pro Electric Bike for Adults, 48V, 60Ah,Dual Battery, 20''x4.0 Fat Tires,Snow Mountain E-Bike, 2000W Electric Bicycle">
+                <h3>DEEPOWER S7Pro Electric Bike for Adults, 48V, 60Ah,Dual Battery, 20''x4.0 Fat Tires,Snow Mountain E-Bike, 2000W Electric Bicycle</h3>
+                <a href="https://theelectricbikesuperstore.com/products/deepower-s7pro-electric-bike-for-adults-48v-60ah-dual-battery-20x4-0-fat-tires-snow-mountain-e-bike-2000w-electric-bicycle" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/deepower-s7pro-electric-bike-for-adults-48v-60ah-dual-battery-20x4-0-fat-tires-snow-mountain-e-bike-2000w-electric-bicycle" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S04d271740f32485aa975e74d2ed41e3dN.webp?v=1772503856" alt="1000W E20 Electric Bike | 48V 13Ah Removable Battery, 20MPH, 20''X3 Fat Tire, 7-Speed Electric Bicycles with Dual Disc Brake">
+                <h3>1000W E20 Electric Bike | 48V 13Ah Removable Battery, 20MPH, 20''X3 Fat Tire, 7-Speed Electric Bicycles with Dual Disc Brake</h3>
+                <a href="https://theelectricbikesuperstore.com/products/1000w-e20-electric-bike-48v-13ah-removable-battery-20mph-20x3-fat-tire-7-speed-electric-bicycles-with-dual-disc-brake" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/1000w-e20-electric-bike-48v-13ah-removable-battery-20mph-20x3-fat-tire-7-speed-electric-bicycles-with-dual-disc-brake" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sa1b8c90956c149f6be645c382c47d0f97.webp?v=1772503843" alt="DEEPOWER S7 Off-Road Electric Bike for 1000W Motor Adults Mountain Ebike with 48V 60AH LG Battery All-Terrain Motorcycle Style">
+                <h3>DEEPOWER S7 Off-Road Electric Bike for 1000W Motor Adults Mountain Ebike with 48V 60AH LG Battery All-Terrain Motorcycle Style</h3>
+                <a href="https://theelectricbikesuperstore.com/products/deepower-s7-off-road-electric-bike-for-1000w-motor-adults-mountain-ebike-with-48v-60ah-lg-battery-all-terrain-motorcycle-style" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/deepower-s7-off-road-electric-bike-for-1000w-motor-adults-mountain-ebike-with-48v-60ah-lg-battery-all-terrain-motorcycle-style" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S157b1fe140d245519526ecf87054d2a93.webp?v=1772503778" alt="26 Electric Bike for Adults with Peak 500W Brushless Motor, 35Miles Removable Battery 20MPH Commuting Electric Mountain Bike">
+                <h3>26 Electric Bike for Adults with Peak 500W Brushless Motor, 35Miles Removable Battery 20MPH Commuting Electric Mountain Bike</h3>
+                <a href="https://theelectricbikesuperstore.com/products/26-electric-bike-for-adults-with-peak-500w-brushless-motor-35miles-removable-battery-20mph-commuting-electric-mountain-bike" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/26-electric-bike-for-adults-with-peak-500w-brushless-motor-35miles-removable-battery-20mph-commuting-electric-mountain-bike" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/ekx-x20-2000w-48v-35ah-electric-bike-mountain-moped-ebike-with-20-fat-tire-right-view-sak31682.jpg?v=1772503758" alt="EKX X20 2000W 48V/35AH Electric Bike Mountain Moped E-Bike (SAK31682)">
+                <h3>EKX X20 2000W 48V/35AH Electric Bike Mountain Moped E-Bike (SAK31682)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ekx-x20-2000w-48v-35ah-electric-bike-mountain-moped-e-bike-sak31682" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ekx-x20-2000w-48v-35ah-electric-bike-mountain-moped-e-bike-sak31682" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S3af28c2ace0148e8b950f60c8a1a1296i.webp?v=1772503738" alt="DYU-C3 Folding Electric Bike - Lightweight, 36V, 200W, 14-Inch Wheels">
+                <h3>DYU-C3 Folding Electric Bike - Lightweight, 36V, 200W, 14-Inch Wheels</h3>
+                <a href="https://theelectricbikesuperstore.com/products/dyu-c3-folding-electric-bike-lightweight-36v-200w-14-inch-wheels" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/dyu-c3-folding-electric-bike-lightweight-36v-200w-14-inch-wheels" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sa232025c87224d6b8535ac6959d9be83g.webp?v=1772503727" alt="1000W Peak 25MPH Adult Electric Bike, Aluminum Frame, 20'' Fat Tires">
+                <h3>1000W Peak 25MPH Adult Electric Bike, Aluminum Frame, 20'' Fat Tires</h3>
+                <a href="https://theelectricbikesuperstore.com/products/1000w-peak-25mph-adult-electric-bike-aluminum-frame-20-fat-tires" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/1000w-peak-25mph-adult-electric-bike-aluminum-frame-20-fat-tires" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Scd3bd33467fa4043becc18698a4f408ff.webp?v=1772503700" alt="eBike Boys Fat Tire Electric Bike - 1200W, Dual Suspension, 7 Speeds">
+                <h3>eBike Boys Fat Tire Electric Bike - 1200W, Dual Suspension, 7 Speeds</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-fat-tire-electric-bike-1200w-dual-suspension-7-speeds" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-fat-tire-electric-bike-1200w-dual-suspension-7-speeds" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S3af28c2ace0148e8b950f60c8a1a1296i_235fe571-57f9-4b92-a3fd-2e25cf31e702.webp?v=1772503682" alt="eBike Boys DYU-C3 Folding Electric Bike - Compact Aluminum Design">
+                <h3>eBike Boys DYU-C3 Folding Electric Bike - Compact Aluminum Design</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-dyu-c3-folding-electric-bike-compact-aluminum-design" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-dyu-c3-folding-electric-bike-compact-aluminum-design" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sf2b111012a43454ea7afe5bd5927339e8_8b5f0a3f-8e63-4114-80f6-a50e110aadde.webp?v=1772503667" alt="eBike Boys 750W Electric Bike - Step-Through Frame, 36V Battery">
+                <h3>eBike Boys 750W Electric Bike - Step-Through Frame, 36V Battery</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-750w-electric-bike-step-through-frame-36v-battery" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-750w-electric-bike-step-through-frame-36v-battery" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S5e9dcfcbd06849a5ad7677eb5fa2b3236_ce2b3698-9992-444a-ab91-5aa266f4b129.webp?v=1772503651" alt="eBike Boys Folding Electric Bike - 350W Motor, Compact Design">
+                <h3>eBike Boys Folding Electric Bike - 350W Motor, Compact Design</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-folding-electric-bike-350w-motor-compact-design" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-folding-electric-bike-350w-motor-compact-design" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S7d080a895e904468b65266e9c2857c082.webp?v=1772503624" alt="Adult Electric Bike: 1000/3000W Motor + 48V Removable Battery">
+                <h3>Adult Electric Bike: 1000/3000W Motor + 48V Removable Battery</h3>
+                <a href="https://theelectricbikesuperstore.com/products/adult-electric-bike-1000-3000w-motor-48v-removable-battery" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/adult-electric-bike-1000-3000w-motor-48v-removable-battery" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/onyx-motorbikes-cty2-step-thru.jpg?v=1772503590" alt="ONYX CTY2 Step-Thru Moped Electric Bike (DEMO)">
+                <h3>ONYX CTY2 Step-Thru Moped Electric Bike (DEMO)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/onyx-cty2-step-thru-moped-electric-bike-demo" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/onyx-cty2-step-thru-moped-electric-bike-demo" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sa88456c9596d4167b2a660dab3fb2eb6x.webp?v=1772503548" alt="35MPH Electric Bike with Removable Battery">
+                <h3>35MPH Electric Bike with Removable Battery</h3>
+                <a href="https://theelectricbikesuperstore.com/products/35mph-electric-bike-with-removable-battery" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/35mph-electric-bike-with-removable-battery" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/happyrun-main_bea8c427-1176-4ab5-abf4-32232aebe17e.jpg?v=1772503514" alt="HappyRun Electric Dirt Bike G300 Pro">
+                <h3>HappyRun Electric Dirt Bike G300 Pro</h3>
+                <a href="https://theelectricbikesuperstore.com/products/happyrun-electric-dirt-bike-g300-pro" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/happyrun-electric-dirt-bike-g300-pro" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/2025-surron-light-bee-x-pink-side-view.jpg?v=1772503497" alt="2025 Surron Light Bee X Electric Dirt Bike">
+                <h3>2025 Surron Light Bee X Electric Dirt Bike</h3>
+                <a href="https://theelectricbikesuperstore.com/products/2025-surron-light-bee-x-electric-dirt-bike" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/2025-surron-light-bee-x-electric-dirt-bike" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/CBE-R1AB-AK.png?v=1772503477" alt="Viribus Panther Electric Mountain Bike">
+                <h3>Viribus Panther Electric Mountain Bike</h3>
+                <a href="https://theelectricbikesuperstore.com/products/viribus-panther-electric-mountain-bike" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/viribus-panther-electric-mountain-bike" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/s-l960_8eb1c0e9-38a9-453c-a387-b9ec7221fa83.webp?v=1772503167" alt="Segway Ninebot S Kids Smart Self-Balancing Electric Transporter 8.7 MPH">
+                <h3>Segway Ninebot S Kids Smart Self-Balancing Electric Transporter 8.7 MPH</h3>
+                <a href="https://theelectricbikesuperstore.com/products/segway-ninebot-s-kids-smart-self-balancing-electric-transporter-8-7-mph" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/segway-ninebot-s-kids-smart-self-balancing-electric-transporter-8-7-mph" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Segway-scooter-P100S-black-13.webp?v=1772503142" alt="Segway Ninebot P100S Electric KickScooter">
+                <h3>Segway Ninebot P100S Electric KickScooter</h3>
+                <a href="https://theelectricbikesuperstore.com/products/segway-ninebot-p100s-electric-kickscooter" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/segway-ninebot-p100s-electric-kickscooter" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sa51db4e346a94791bf1ba8ab6afc0cbeT.webp?v=1772502554" alt="The Ultimate Folding E-Scooter for Commuters & Adventurers">
+                <h3>The Ultimate Folding E-Scooter for Commuters & Adventurers</h3>
+                <a href="https://theelectricbikesuperstore.com/products/the-ultimate-folding-e-scooter-for-commuters-adventurers" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/the-ultimate-folding-e-scooter-for-commuters-adventurers" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/94020c41cf3de306efd0b789d83d5f686318fc7d.jpg?v=1772502185" alt="Benno eJoy 5i Evo 1 Performance Class 1 Ebike - 400wh Easy On Wasbabi Green">
+                <h3>Benno eJoy 5i Evo 1 Performance Class 1 Ebike - 400wh Easy On Wasbabi Green</h3>
+                <a href="https://theelectricbikesuperstore.com/products/benno-ejoy-5i-evo-1-performance-class-1-ebike-400wh-easy-on-wasbabi-green" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/benno-ejoy-5i-evo-1-performance-class-1-ebike-400wh-easy-on-wasbabi-green" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sddcd8c4feb67422496abe737500721d5a_203e9cb5-d414-461c-b4f8-c0741c41946f.webp?v=1772502162" alt="eBike Boys 800W Off-Road Electric Scooter - 10 Tires, Foldable Design">
+                <h3>eBike Boys 800W Off-Road Electric Scooter - 10 Tires, Foldable Design</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-800w-off-road-electric-scooter-10-tires-foldable-design" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ebike-boys-800w-off-road-electric-scooter-10-tires-foldable-design" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/48246185c47055d0ad82b700c400d0b9637dcb8f.jpg?v=1772502020" alt="Benno eJoy 5i Evo 1 Performance Class 1 Ebike - 400wh Easy On Pebble Brown">
+                <h3>Benno eJoy 5i Evo 1 Performance Class 1 Ebike - 400wh Easy On Pebble Brown</h3>
+                <a href="https://theelectricbikesuperstore.com/products/benno-ejoy-5i-evo-1-performance-class-1-ebike-400wh-easy-on-pebble-brown" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/benno-ejoy-5i-evo-1-performance-class-1-ebike-400wh-easy-on-pebble-brown" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Bluetran_Main.jpg?v=1772501991" alt="Dualtron Bluetran Lightning 72V 35AH">
+                <h3>Dualtron Bluetran Lightning 72V 35AH</h3>
+                <a href="https://theelectricbikesuperstore.com/products/dualtron-bluetran-lightning-72v-35ah" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/dualtron-bluetran-lightning-72v-35ah" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/5072_source_1710827058.jpg?v=1772501734" alt="Rovoron (by Dualtron) Kullter electric scooter with the 60 V 31.5 Ah White">
+                <h3>Rovoron (by Dualtron) Kullter electric scooter with the 60 V 31.5 Ah White</h3>
+                <a href="https://theelectricbikesuperstore.com/products/rovoron-by-dualtron-kullter-electric-scooter-with-the-60-v-31-5-ah-white" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/rovoron-by-dualtron-kullter-electric-scooter-with-the-60-v-31-5-ah-white" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/5074_source_1710827356.jpg?v=1772501712" alt="Rovoron (by Dualtron) Kullter electric scooter with the 60 V 31.5 Ah Blue">
+                <h3>Rovoron (by Dualtron) Kullter electric scooter with the 60 V 31.5 Ah Blue</h3>
+                <a href="https://theelectricbikesuperstore.com/products/rovoron-by-dualtron-kullter-electric-scooter-with-the-60-v-31-5-ah-blue" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/rovoron-by-dualtron-kullter-electric-scooter-with-the-60-v-31-5-ah-blue" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Rovoron-1-768x535.jpg?v=1772501667" alt="Rovoron (by Dualtron) Kullter electric scooter with the 60 V 31.5 Ah">
+                <h3>Rovoron (by Dualtron) Kullter electric scooter with the 60 V 31.5 Ah</h3>
+                <a href="https://theelectricbikesuperstore.com/products/rovoron-by-dualtron-kullter-electric-scooter-with-the-60-v-31-5-ah" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/rovoron-by-dualtron-kullter-electric-scooter-with-the-60-v-31-5-ah" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/605671716764_GTRX_Electric_Scooter_500W_5bca5aa5-a730-49c7-b39a-0bf5b38fda8a.png?v=1772501648" alt="Ridel GTRX Electric Scooter 500W Adult (Black)">
+                <h3>Ridel GTRX Electric Scooter 500W Adult (Black)</h3>
+                <a href="https://theelectricbikesuperstore.com/products/ridel-gtrx-electric-scooter-500w-adult-black" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/ridel-gtrx-electric-scooter-500w-adult-black" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Screenshot2025-08-11143630.png?v=1772501626" alt="Silver Ettrone Aria LX Electric Scooter">
+                <h3>Silver Ettrone Aria LX Electric Scooter</h3>
+                <a href="https://theelectricbikesuperstore.com/products/silver-ettrone-aria-lx-electric-scooter" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/silver-ettrone-aria-lx-electric-scooter" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/A6261a76735e24ab393ecdb49ecc4da81Y_35cecc76-c066-44c4-bb3a-58e71f22e69b.webp?v=1772501611" alt="Electric Scooter 800W Power  31MPH Speed">
+                <h3>Electric Scooter 800W Power  31MPH Speed</h3>
+                <a href="https://theelectricbikesuperstore.com/products/electric-scooter-800w-power-31mph-speed" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/electric-scooter-800w-power-31mph-speed" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Sb97e91ab9c5e4266af954ec5b6c020d3i.webp?v=1772501591" alt="Lightweight Electric Scooter  35-55km Range">
+                <h3>Lightweight Electric Scooter  35-55km Range</h3>
+                <a href="https://theelectricbikesuperstore.com/products/lightweight-electric-scooter-35-55km-range" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/lightweight-electric-scooter-35-55km-range" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/b6b46fb1-4de4-46db-9421-1b81c45c95ea.jpg?v=1772501569" alt="A19-12 Inch Electric Scooter">
+                <h3>A19-12 Inch Electric Scooter</h3>
+                <a href="https://theelectricbikesuperstore.com/products/a19-12-inch-electric-scooter" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/a19-12-inch-electric-scooter" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/2645b14e-2636-4c9c-b28a-94cdf5b2fef5.jpg?v=1772501191" alt="Lithium Electric Scooter Battery Car">
+                <h3>Lithium Electric Scooter Battery Car</h3>
+                <a href="https://theelectricbikesuperstore.com/products/lithium-electric-scooter-battery-car" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/lithium-electric-scooter-battery-car" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/0a31594b-e7d7-485e-992a-7a2abe46b210.jpg?v=1772501133" alt="800W Foldable Electric Powerful  Scooter From US Warehouse 40 Km 1 Hour High Speed Electric Scooter">
+                <h3>800W Foldable Electric Powerful  Scooter From US Warehouse 40 Km 1 Hour High Speed Electric Scooter</h3>
+                <a href="https://theelectricbikesuperstore.com/products/800w-foldable-electric-powerful-scooter-from-us-warehouse-40-km-1-hour-high-speed-electric-scooter" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/800w-foldable-electric-powerful-scooter-from-us-warehouse-40-km-1-hour-high-speed-electric-scooter" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/57d51ccb-f4c0-4275-874b-43c27475c644.jpg?v=1772501107" alt="60V 1500W 2000W Lithium Battery Electric Scooter American Warehouse Wide Tire  Electric Scooter">
+                <h3>60V 1500W 2000W Lithium Battery Electric Scooter American Warehouse Wide Tire  Electric Scooter</h3>
+                <a href="https://theelectricbikesuperstore.com/products/60v-1500w-2000w-lithium-battery-electric-scooter-american-warehouse-wide-tire-electric-scooter" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/60v-1500w-2000w-lithium-battery-electric-scooter-american-warehouse-wide-tire-electric-scooter" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/fc86ff4d-919d-45f4-956c-9ada45571cbe.jpg?v=1772501093" alt="Electric Scooter, 72V Dual Power Motor, 11 Inch Road Tire Foldable Electric Scooter">
+                <h3>Electric Scooter, 72V Dual Power Motor, 11 Inch Road Tire Foldable Electric Scooter</h3>
+                <a href="https://theelectricbikesuperstore.com/products/electric-scooter-72v-dual-power-motor-11-inch-road-tire-foldable-electric-scooter" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/electric-scooter-72v-dual-power-motor-11-inch-road-tire-foldable-electric-scooter" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/S18cb3312a5ef4aa5807497821a09ec79Y_c217afe1-5f9d-40b6-b822-7d75487bb770.webp?v=1772499902" alt="Obarter D5 Electric Scooter - 5000W, 70km/h Max Speed, Removable Battery">
+                <h3>Obarter D5 Electric Scooter - 5000W, 70km/h Max Speed, Removable Battery</h3>
+                <a href="https://theelectricbikesuperstore.com/products/obarter-d5-electric-scooter-5000w-70km-h-max-speed-removable-battery" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/obarter-d5-electric-scooter-5000w-70km-h-max-speed-removable-battery" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+        
+            <div class="card">
+                <div class="badge">Review</div>
+                <img src="https://cdn.shopify.com/s/files/1/0981/0703/1918/files/Af48ce28e16d24b42bc5564d2038cbe633_64d0ab12-e940-4145-b1ad-55e60907dc3d.webp?v=1772499987" alt="HEZZO-F8 Electric Scooter - 8000W Power, Max Speed 100 Km/h">
+                <h3>HEZZO-F8 Electric Scooter - 8000W Power, Max Speed 100 Km/h</h3>
+                <a href="https://theelectricbikesuperstore.com/products/hezzo-f8-electric-scooter-8000w-power-max-speed-100-km-h" class="btn-green" target="_blank">🎁 Check Price & Get FREE SHIPPING</a>
+                <a href="https://theelectricbikesuperstore.com/products/hezzo-f8-electric-scooter-8000w-power-max-speed-100-km-h" class="btn-blue" target="_blank">🚚 Claim Your FREE SHIPPING Today</a>
+            </div>
+                </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 EV Forum. All rights reserved.</p>
+    </footer>
+</body>
+</html>
