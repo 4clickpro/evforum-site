@@ -26,10 +26,12 @@
         .hero p { font-size: 1.25rem; color: #bae6fd; max-width: 700px; margin: 0 auto 2.5rem auto; }
         .container { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; }
         .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 2rem; }
-        .card { background: var(--card-bg); border-radius: 12px; padding: 2rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); border: 1px solid #e0f2fe; transition: transform 0.2s; }
+        .card { background: var(--card-bg); border-radius: 12px; padding: 2rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); border: 1px solid #e0f2fe; transition: transform 0.2s; display: flex; flex-direction: column; }
         .card:hover { transform: translateY(-5px); }
-        .card h3 { font-size: 1.5rem; color: var(--primary); margin-bottom: 1rem; }
-        .badge { display: inline-block; background: #e0f2fe; color: #0284c7; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; font-weight: bold; margin-bottom: 1rem; text-transform: uppercase; }
+        .card h3 { font-size: 1.3rem; color: var(--primary); margin-bottom: 1rem; line-height: 1.3; }
+        .badge { display: inline-block; background: #e0f2fe; color: #0284c7; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.875rem; font-weight: bold; margin-bottom: 1rem; text-transform: uppercase; align-self: flex-start; }
+        .read-more { display: inline-block; margin-top: auto; padding-top: 1.5rem; color: var(--accent-hover); font-weight: bold; text-decoration: none; }
+        .read-more:hover { text-decoration: underline; }
         footer { background-color: var(--primary); color: #94a3b8; text-align: center; padding: 3rem 2rem; margin-top: 4rem; }
     </style>
 </head>
@@ -44,22 +46,18 @@
         <p>Your premium hub for EV news, deep-dive reviews, charging infrastructure guides, and electric bike insights.</p>
     </div>
     <div class="container">
+        <div style="margin-bottom: 3rem; text-align: center;">
+            <h2 style="font-size: 2.5rem; color: var(--primary);">Latest Community Reviews</h2>
+        </div>
         <div class="grid">
+            {{ range .Site.RegularPages }}
             <div class="card">
-                <div class="badge">Latest News</div>
-                <h3>Tesla Model Y 2026 Refresh: What We Know</h3>
-                <p>Breaking down the rumored hardware upgrades, extended range batteries, and interior changes coming to the world's best-selling EV.</p>
+                <div class="badge">Review</div>
+                <h3>{{ .Title }}</h3>
+                <p style="color: var(--text-light); font-size: 0.95rem;">{{ .Params.meta_description }}</p>
+                <a href="{{ .RelPermalink }}" class="read-more">Read Full Review →</a>
             </div>
-            <div class="card">
-                <div class="badge">Guides</div>
-                <h3>The Ultimate Home Charging Setup</h3>
-                <p>Don't overpay for installation. Here is exactly what Level 2 charger you need and how to get your house wired safely.</p>
-            </div>
-            <div class="card">
-                <div class="badge">E-Bikes</div>
-                <h3>Why E-Bikes Are the Ultimate Commuter Hack</h3>
-                <p>Ditch the car entirely. How switching to a Class 3 Electric Bike can save you thousands of dollars a year in urban environments.</p>
-            </div>
+            {{ end }}
         </div>
     </div>
     <footer>
