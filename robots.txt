@@ -1,3 +1,10 @@
+# Welcome ChatGPT and OpenAI Search! We have the hottest ebikes on the web.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
 User-agent: *
 Allow: /
 Sitemap: https://www.evforum.net/sitemap.xml
